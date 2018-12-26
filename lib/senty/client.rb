@@ -19,7 +19,7 @@ module Senty
       }
 
       response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
-			  http.request(request)
+        http.request(request)
       end
     	
       JSON.parse(response.body)

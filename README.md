@@ -28,7 +28,21 @@ senty.api_key = ENV['YOUR API KEY']
 text = "the good, the bad, and the ugly."
 
 senty.analyze(text)
-#=> {"results"=>[{"key"=>"the", "value"=>0}, {"key"=>"good", "value"=>0.639423076923}, {"key"=>"the", "value"=>0}, {"key"=>"bad", "value"=>-0.558823529412}, {"key"=>"and", "value"=>0}, {"key"=>"the", "value"=>0}, {"key"=>"ugly", "value"=>-0.354166666667}], "total"=>-0.2735671191559999, "type"=>"Negative", "original_text"=>"the good, the bad, and the ugly."}
+#=> {
+#  "results"=>
+#    [
+#      {"key"=> "the", "value"=>0}, 
+#      {"key"=>"good", "value"=>0.639423076923}, 
+#      {"key"=>"the", "value"=>0}, 
+#      {"key"=>"bad", "value"=>-0.558823529412}, 
+#      {"key"=>"and", "value"=>0}, 
+#      {"key"=>"the", "value"=>0}, 
+#      {"key"=>"ugly", "value"=>-0.354166666667}
+#    ], 
+#    "total"=>-0.2735671191559999, 
+#    "type"=>"Negative", 
+#    "original_text"=>"the good, the bad, and the ugly."
+#  }
 ```
 
 ## Contributing
