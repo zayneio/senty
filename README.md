@@ -23,7 +23,7 @@ Or install it yourself as:
 ```ruby
 senty = Senty.new
 
-senty.api_key = ENV['YOUR API KEY']
+senty.api_key = YOUR_API_KEY
 
 text = "the good, the bad, and the ugly."
 
@@ -44,10 +44,6 @@ senty.analyze(text)
 #    "original_text"=>"the good, the bad, and the ugly."
 #  }
 ```
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/senty.
 
 ## License
 
