@@ -2,22 +2,6 @@
 
 Senty sentiment analysis API
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'senty'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install senty
-
 ## Usage
 
 ```ruby
